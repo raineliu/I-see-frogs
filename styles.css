@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #fdfef0;
+	color:#72a12d;
+	/*font-size: 62.5%;*/
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link,a:visited{
+	color:#72a12d;
+	border-bottom: 1px solid #dbe6be;
+}
+
+a:hover,a:active{
+	color:#39581f;
+	background-color: #fcfded;
+	border-bottom: 1px solid #aecb6e;
+}
+
+#border{
+	width:600px;
+	margin: 0 auto;
+	border-color: #e1efa2;
+	border-style: solid;
+	border-width: 0 5px;
+}
+
+#container{
+	padding: 10px;
+	margin:0 auto;
+	background: #fff url(images/background.jpg) no-repeat bottom right;
+	border-color: #686923;
+	border-style: solid;
+	border-width: 0 1px;
+	text-align: left;
+	/*font-size: 1.2em;*/
+}
+
+#header{
+	width:90%;
+	border-bottom: 1px solid #e1efa2;
+	margin: 0 0 50px 0;
+}
+
+h1{
+	background: #fff url(images/h1_bg.gif) no-repeat bottom left;
+	padding: 0 0 10px 50px;
+	margin: 20px 5px 5px 5px;
+	font-family: "Trebuchet MS",arial,sans-serif;
+	/*font-size:2.6em;*/
+	font-weight: normal;
+}
+
+h3{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-family: geneva,arial,sans-serif;
+	padding: 0 20px;
+	position: relative;
+	top: -15px;
+	left: 30px;
+}
+
+#introduction{
+	float: right;
+	width: 200px;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	font-family: "Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+	letter-spacing: 1px;
+	color:#dc7d47;
+	text-align: justify;
+	margin: 20px 0 20px 20px;
+	padding: 2px 20px;
+}
+
+h2{
+	font-family: "Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+	font-size: 1em;
+	text-transform: capitalize;
+	margin: 40px 0 0 0;
+}
+
+h2 span{
+	background: #fff url(images/h2_bg.gif) no-repeat bottom right;
+	padding: 5px 50px 10px 0;
+	margin: 30px 5px 5px 30px;
+}
+
+p{
+	line-height: 1.8em;
+	font-size: 0.7em;
+	font-family: "Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+	text-align: left;
+	margin: 10px 0 0 0;
+}
+
+strong{
+	/*font-weight: normal;*/
+	font-family: "Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+
+}
+
+.p{
+	margin: 10px 0 276px 0;
+}
